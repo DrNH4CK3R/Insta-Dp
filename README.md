@@ -1,6 +1,6 @@
 # Insta-Dp
 
-Simple python script to download any Instagram display picture of both private and public accounts.
+🐍Simple python script to download any Instagram display picture of both private and public accounts.
 
 The tool is made using **Instaloader** module in python.
 
