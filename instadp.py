@@ -19,7 +19,7 @@ dp = instaloader.Instaloader()
 acc = input('Enter the Account Username: ')
 
 print('                                   ')
-print('Searching for the given Username...')
+print('Searching for the given Username {}'.format(acc))
 time.sleep(3)
 print('                                   ')
 print('Fetching details...                ')
