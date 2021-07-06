@@ -10,9 +10,9 @@ The tool is made using **Instaloader** module in python.
 ## Installation
 
 
-*Clone thi repo using `git clone https://github.com/DrNH4CK3R/Insta-Dp`*
+*Clone thi repo using* `git clone https://github.com/DrNH4CK3R/Insta-Dp`
 
-*Install requirements to run tool smoothly by using this command `pip -r install requirements.txt`*
+*Install requirements to run tool smoothly by using this command* `pip -r install requirements.txt`
 
 *To run the tool,* 
      `python instadp.py`
