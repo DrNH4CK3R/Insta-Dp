@@ -6,7 +6,15 @@ import instaloader
 
 os.system("clear")
 
-os.system("figlet Insta-Dp ")
+TITLE="""
+ ___           _              ____        
+|_ _|_ __  ___| |_ __ _      |  _ \\ _ __  
+ | || '_ \\/ __| __/ _` |_____| | | | '_ \\ 
+ | || | | \\__ \\ || (_| |_____| |_| | |_) |
+|___|_| |_|___/\\__\\__,_|     |____/| .__/ 
+                                   |_|    
+"""
+print(TITLE)
 print('                         ')
 print(' Author: DrNH4CK3R       ')
 print('                         ')
