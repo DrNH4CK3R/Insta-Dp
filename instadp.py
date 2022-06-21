@@ -28,10 +28,11 @@ acc = input('Enter the Account Username: ')
 
 print('                                   ')
 print('Searching for the given Username {}'.format(acc))
-time.sleep(3)
 print('                                   ')
 print('Fetching details...                ')
-time.sleep(3)
 print('                                   ')
 
-dp.download_profile(acc, profile_pic_only = True)
+try:
+    dp.download_profile(acc, profile_pic_only = True)
+except :
+    print("An error occured")
