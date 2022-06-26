@@ -6,7 +6,15 @@ import instaloader
 
 os.system("clear")
 
-os.system("figlet Insta-Dp ")
+TITLE="""
+ ___           _              ____        
+|_ _|_ __  ___| |_ __ _      |  _ \\ _ __  
+ | || '_ \\/ __| __/ _` |_____| | | | '_ \\ 
+ | || | | \\__ \\ || (_| |_____| |_| | |_) |
+|___|_| |_|___/\\__\\__,_|     |____/| .__/ 
+                                   |_|    
+"""
+print(TITLE)
 print('                         ')
 print(' Author: DrNH4CK3R       ')
 print('                         ')
@@ -20,10 +28,11 @@ acc = input('Enter the Account Username: ')
 
 print('                                   ')
 print('Searching for the given Username {}'.format(acc))
-time.sleep(3)
 print('                                   ')
 print('Fetching details...                ')
-time.sleep(3)
 print('                                   ')
 
-dp.download_profile(acc, profile_pic_only = True)
+try:
+    dp.download_profile(acc, profile_pic_only = True)
+except :
+    print("An error occured")
